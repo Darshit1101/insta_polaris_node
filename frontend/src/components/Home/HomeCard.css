@@ -1,0 +1,120 @@
+/* post  */
+.avatar-container {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.avatar {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%; /* Adjust based on the context */
+}
+
+.card {
+  width: 400px; /* Set a fixed width for the card */
+  margin: 10px; /* Optional: Add some margin for spacing */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Add a shadow */
+  overflow: hidden; /* Ensure child elements don't overflow */
+}
+
+.postImg {
+  width: 100%;
+  height: 200px; /* Adjust based on the aspect ratio */
+  object-fit: cover; /* Maintain aspect ratio and cover the container */
+}
+
+/* like  */
+.likeProfile {
+  margin: 0px 10px;
+}
+.like {
+  cursor: pointer;
+}
+
+.dislike {
+  cursor: pointer;
+}
+.likeli {
+  display: flex;
+  align-items: center;
+  margin-top: 5px;
+  margin-right: 20px;
+}
+.likeli img {
+  border-radius: 50%;
+}
+.like-count {
+  cursor: pointer;
+  margin-left: 3px;
+  font-size: 16px;
+}
+.like-count:hover {
+  color: rgb(0, 0, 100);
+}
+.material-symbols-outlined-red {
+  color: red;
+  font-variation-settings: "FILL" 1, "wght" 700, "GRAD" 0, "opsz" 24;
+}
+
+.material-symbols-outlined {
+  cursor: pointer;
+}
+.likeCount {
+  font-size: 15px;
+  margin: 7px;
+}
+/* comment  */
+.modal-comment-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.modal-comment-item img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin-right: 0.5rem;
+}
+
+.modal-comment-item span {
+  margin-right: 0.5rem;
+}
+
+.modal-comment-item button {
+  margin-left: 1rem;
+}
+
+.editIcon {
+  cursor: pointer;
+  margin-left: auto;
+}
+
+.view-comment {
+  cursor: pointer;
+  margin-top: 10px;
+  margin-left: 5px;
+}
+.view-comment:hover {
+  text-decoration: underline;
+  color: rgb(1, 1, 61);
+}
+.captionText {
+  margin-left: -11px;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  max-height: auto;
+  text-overflow: ellipsis;
+}
+.sendIcon {
+  cursor: pointer;
+}
